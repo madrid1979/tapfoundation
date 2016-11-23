@@ -2,6 +2,8 @@ html, body {font-family: 'Libre Baskerville', serif}
 h1, h2, h3, h4, h5, h6 {font-family: 'Libre Baskerville', serif; font-weight: 700}
 .cntrd {text-align: center;}
 
+body {background-image: url('../img/pw_maze_white.png')}
+
 .headerContainer {
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -14,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {font-family: 'Libre Baskerville', serif; font-weight: 70
 }
 
 @media screen and (max-width: 39.9375em) {
+	body {background-image: url('../img/pw_maze_white_@2X.png')}
 	.headerRow {padding-top: 20px}
 		.headerRow .columns {padding: 0px}
 		.siteTitle {position: relative}
