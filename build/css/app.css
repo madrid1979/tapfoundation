@@ -10,32 +10,33 @@ body {background-image: url('../img/pw_maze_white.png')}
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	border-bottom: 2px solid #656565;
 }
-.siteTitle h1 {
-	text-transform: uppercase;
-    color: #fff;
-}
+.headerRow {padding-top: 20px}
+	.siteTitle {position: relative}
+	.siteTitle h1 {
+		position: absolute;
+	    bottom: 0;
+	    left: -36px;
+	    margin: 0;
+		text-transform: uppercase;
+	    color: #fff;
+	}
+
+.missionRow {margin-top: 20px}
+	.missionRow h4 {text-align: right}
+	.missionRow ol li {padding-bottom: 20px}
+
+.copyrightRow {border-top: 1px solid #656565}
+	.copyrightRow p {padding-top: 20px; font-size: 12px}
 
 @media screen and (max-width: 39.9375em) {
-	body {background-image: url('../img/pw_maze_white_@2X.png')}
-	.headerRow {padding-top: 20px}
-		.headerRow .columns {padding: 0px}
-		.siteTitle {position: relative}
-		.siteTitle h1 {
-		    position: absolute;
-		    bottom: 0;
-		    left: -8px;
-		    margin: 0;
-		    line-height: 24px;
-		    font-size: 6vw;
-		    text-transform: uppercase;
-		    color: #fff;
-		}
+	.headerRow .columns {padding: 0px}
+		
+	.siteTitle h1 {
+	    line-height: 24px;
+	    font-size: 6vw;
+	    left: -8px
+	}
 	
-	.missionRow {margin-top: 20px}
-		.misssionRow h4 {font-size: 4vw; text-align: center}
-		.missionRow ol {margin-top: 20px}
-		.missionRow ol li {padding-bottom: 20px}
-	
-	.copyrightRow {border-top: 1px solid #656565;}
-		.copyrightRow p {padding-top: 20px; font-size: 12px}
+	.missionRow h4 {font-size: 4vw; text-align: center}
+	.missionRow ol {margin-top: 20px}	
 }
